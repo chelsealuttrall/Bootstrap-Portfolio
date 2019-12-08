@@ -1,0 +1,20 @@
+/*Navigation Bar*/
+
+
+
+ul.navbar-nav {
+    flex: end;
+}
+
+
+/*Main Body*/
+
+
+
+
+/*Footer*/
+
+footer {
+    position: sticky;
+    text-align: center;
+}
