@@ -1,15 +1,15 @@
 /*Navigation Bar*/
 
-ul.navbar-nav {
-    flex: end;
-}
 
 .navbar {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    
 }
 
 
+.col-6 {
+    align-content: center;
+}
 
 /*Main Body*/
 
@@ -27,14 +27,28 @@ ul.navbar-nav {
     margin: 30px auto 30px 0px;
 }
 
-img.ProjectImage {
+.rotate180 {
+    -webkit-transform: rotate(80deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin: auto;
+}
+
+span img {
     width: 200px;
 }
 
+.MainBlock {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0 0 0 ;
+}
 
 /*Footer*/
-
-footer {
-    position: sticky;
-    text-align: center;
-}

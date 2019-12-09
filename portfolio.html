@@ -6,60 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap-Portfolio</title>
   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <style rel="stylesheet" src="style.css"></style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light row">
-        <a class="navbar-brand col-6" href="#">Chelsea Luttrall </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse col-6" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<div class="Background">   
+      
+    
+    <nav class="navbar navbar-expand-lg row text-center bg-dark text-white">
+                <div class="col-1"></div>
+                <a class="navbar-brand col-3 p-3 mb-2 bg-primary text-white" href="index.html">Chelsea Luttrall </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-4"></div>
+                <div class="collapse navbar-collapse col-6" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        
 
 <!--Main Body-->
 
-<main class="container Background">
+<main class="container">
         <div class="row"><span class="border border-primary">
-            <div class="col col-12">
+            <div class="col col-12 MainBlock">
                 <h3>Portfolio</h3>
                 <hr>
-                <div class="row" id="ProjectBlock">
-                    <div class="col-md-3"><span class="border border-primary">
-                        <img class="ProjectImage" src="MonarchGif.gif" alt="TheMonarchCrest">
+                <div class="row" id="ProjectBlock ">
+                    <div class="col-md-4">
+                        <img class="ProjectImage border border-primary" src="MonarchGif.gif" alt="TheMonarchCrest">
                         <h2>Project 1</h2>
-                    </span></div>
-                    <div class="col-md-3"><span class="border border-primary">
-                        <img class="ProjectImage" src="MyLove&Flannel.jpeg" alt="Smootchin'">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="ProjectImage border border-primary" src="MyLove&Flannel.jpeg" alt="Smootchin'">
                         <h2>Project 2</h2>
-                    </span></div>
-                    <div class="col-md-3"><span class="border border-primary">
-                        <img class="ProjectImage" src="Echo'sHat1.jpeg" alt="Dog In Hat">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="ProjectImage border border-primary" src="Echo'sHat1.jpeg" alt="Dog In Hat">
                         <h2>Project 3</h2>
-                    </span></div>
-                    <div class="col-md-3"><span class="border border-primary">
-                        <img class="ProjectImage" src="BestiesOnOurWay.jpeg" alt="Driving Old Car">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="ProjectImage border border-primary" src="BestiesOnOurWay.jpeg" alt="Driving Old Car">
                         <h2>Project 4</h2>
-                    </span></div>
-                    <div class="col-md-3"><span class="border border-primary">
-                        <img class="ProjectImage" src="Echo'sHat2.jpeg" alt="Dog In Another Hat">                 
+                    </div>
+                    <div class="col-md-4">
+                        <img class="ProjectImage rotate180 border border-primary" src="Echo'sHat2.jpeg" alt="Dog In Another Hat">                 
                        <h2>Project 5</h2>
-                    </span></div>
+                </div>
                         
                     
                 </div>
@@ -70,14 +76,14 @@
 
 
     <!--Footer-->
-    <footer class="container">
+    <footer class="sticky-bottom">
             <div class="row">
-                <div class="col col-12">
+                <div class="col col-12 text-center bg-dark text-primary">
                     <p>COPYRIGHT &COPY;</p>
                 </div>
             </div>
-    </footer>
-
+        </footer>
+</div>
       
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
