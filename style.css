@@ -38,6 +38,13 @@
 
 span img {
     width: 200px;
+    height: 150px;    
+}
+
+main.container {
+    margin: 50px;
+    align-self: auto;
+    background-color: white;
 }
 
 .MainBlock {
@@ -50,5 +57,22 @@ p {
     font-family: 'Courier New', Courier, monospace;
     padding: 20px 0 0 0 ;
 }
+
+h2 {
+    font-size: 16px;
+    width: 200px;
+    position: relative;
+    bottom: 53px;
+    left: 45px;
+
+    
+    border-right-style: solid;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-left-color: blue;
+    border-right-color: blue;
+}
+
 
 /*Footer*/
