@@ -42,14 +42,14 @@ span img {
 }
 
 main.container {
-    margin: 50px;
-    align-self: auto;
+    margin: 50px auto;
     background-color: white;
 }
 
 .MainBlock {
     font-family: 'Courier New', Courier, monospace;
     margin: 10px;
+    padding: 10px 50px;
 }
 
 
@@ -58,21 +58,39 @@ p {
     padding: 20px 0 0 0 ;
 }
 
+.ProjectImage {
+    width: 75%;
+    margin: 25%;
+}
+
 h2 {
     font-size: 16px;
-    width: 200px;
+    width: 75%;
     position: relative;
-    bottom: 53px;
-    left: 45px;
+    bottom: 135px;
+    left: 81px;
 
-    
-    border-right-style: solid;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-width: 1px;
-    border-left-color: blue;
-    border-right-color: blue;
 }
 
 
 /*Footer*/
+
+/*responsive stuff to work out
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
