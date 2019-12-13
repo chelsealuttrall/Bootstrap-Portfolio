@@ -3,7 +3,6 @@
 
 .navbar {
     font-family: 'Courier New', Courier, monospace;
-    
 }
 
 
@@ -36,10 +35,12 @@
     margin: auto;
 }
 
-span img {
+#MyPic{
     width: 200px;
     height: 150px;    
 }
+
+
 
 main.container {
     margin: 50px auto;
